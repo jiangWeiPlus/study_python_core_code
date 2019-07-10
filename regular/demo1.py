@@ -20,3 +20,8 @@ if m is not None:
 else:
     print('search failed.')
 
+m = re.findall('.*aa.*', base_str)
+if m:
+    print(m)
+else:
+    print('findall none.')
